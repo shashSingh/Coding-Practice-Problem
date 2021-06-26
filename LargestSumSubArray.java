@@ -1,4 +1,5 @@
-// The Logic of this code is to fetch all the sub-arrays and then calculate the sum of each. 
+// There are 3 logics in this Code. Each better than the previous One. The best O(n) logic is Kaden's Algorithm.
+// The Logic of the first code is to fetch all the sub-arrays and then calculate the sum of each. 
 // Ultimately finding out the largest sum
 
 package dynamicProgramming;
@@ -25,6 +26,8 @@ public class LargestSumArray
 		}
 		System.out.println(finalSum);
 	}
+
+// We Store the Sum of the array elements upto that index in the new Sum Array.  And apply a formula to find out the Largest Sum.
 	
 	public static void getSumN2(int arr[]) // O(n^2) Complexity
 	{
@@ -51,8 +54,9 @@ public class LargestSumArray
 		}
 		System.out.println(finalSum);
 	}
-	
-	public static void KadenAlgo(int arr[]) //This Algo is very imp READ about it. 
+
+// This is the KADEN's Algorithm - Read about it to get Info. 
+	public static void KadenAlgo(int arr[]) //O(n) Complexity
 	{
 		
 	}
